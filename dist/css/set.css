@@ -28,6 +28,22 @@
 .icons-ss{
     padding: 4px;
 }
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .zz-area{
+        margin-top:200px;
+    }
+    .dog-img{
+        left: 44%;
+        top: -26%;
+    }
+    .dog-h1{
+        font-size: 50px;
+    }
+
+    .social-icon{
+        margin-right: 60px;
+    }
+}
 
 @media (max-width: 768px) {
     .container{
