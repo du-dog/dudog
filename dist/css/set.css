@@ -1,0 +1,55 @@
+.zz-area{
+    position: relative;
+}
+
+.dog-img{
+    position: absolute;
+    width: 253px;
+    height: 291px;
+    left: 48%;
+    top: -32%;
+}
+
+.address-end{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.qr-code{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+
+.icons-ss{
+    padding: 4px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: auto;
+    }
+    
+
+    .zz-area{
+        padding-top:350px;
+    }
+
+    .dog-img{
+        width: 180px;
+        height: auto;
+        top: 100px;
+        left: auto;
+        left: calc(50% - 90px);
+        /* daixiugai */
+    }
+
+    .qr-code{
+        display: none;
+    }
+
+}
